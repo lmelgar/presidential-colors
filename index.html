@@ -1,0 +1,50 @@
+<html>
+
+<head>
+
+  <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:300,400,600, 700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width; initial-scale=1;" />
+
+</head>
+
+<body>
+
+  <div id="container">
+
+    <div id="headline">
+      <h3>Executive Colors</h3>
+      <h4>A visual exploration of the colors of U.S. presidental portraits</h4>
+    </div>
+
+    <div id="bar-presidents"></div>
+
+    <p class="paragraphs">When I saw in person the vivid colors of <a href="https://npg.si.edu/learn/classroom-resource/barack-obama">Barack Obama's</a> presidential portrait at the <a href="https://npg.si.edu">National Portrait Gallery</a>, a question popped in my mind: Has the presidential portrait tradition changed over the years when it comes to its color palette? I set out to explore this in all the presidential portraits.</p>
+
+    <p class="paragraphs">What you see above are the most prevalent colors in each portrait. This project is just an experiment. If you want to know more about how I did it, you can read about it <a href="#methodology">here</a>.</p>
+
+    <div id="graph-3">
+      <h5>43 presidents, 16 Colors</h5>
+      <p class="graph-intro">Explore how the colors used in presidential portraits have evolved. Or look for what colors portrait your favorite president.</p>
+      <div class="buttons">
+        <button id="order-presidency">Chronological<div class="point">&#9759;</div></button>
+        <button id="order-last-name">Alphabetical <div class="point">&#9759;</div></button>
+      </div>
+
+      <div id="graphic-presidents"></div>
+    </div>
+
+    <p class="paragraphs" id="methodology">The data used for this project was created using the library PaletteR. This package helps to extract the most prominent colors from an image. You can read more about it <a href="http://www.andreacirillo.com/2018/05/08/how-to-use-paletter-to-automagically-build-palettes-from-pictures/">here</a>. I decided to extract 16 from each portrait. That number is arbitrary.The visualizations were made with Javascript. You can find the code here.</p>
+
+    <p class="paragraphs">The portrait images came from <a href="https://www.whitehousehistory.org/galleries/presidential-portraits">The White House Historical Association</a> and President Barack Obama's <a href="https://obamawhitehouse.archives.gov/photos-and-video/photogallery/official-portraits-us-presidents">White House website</a>.</p>
+
+    <p class="paragraphs" id="methodology">If you have any thought, comment or idea, you can find my contact in <a href="http://www.lmelgar.me">my website</a>.</p>
+
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js"></script>
+  <script type="text/javascript" src="presidents.js"></script>
+
+</body>
+
+</html>

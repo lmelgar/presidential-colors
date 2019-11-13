@@ -1,0 +1,258 @@
+* {
+  font-family: 'Hepta Slab', georgia, serif;
+  background-color: #f3f3f3;
+  color: #252525;
+  font-size: 16px;
+}
+
+#container {
+  max-width: 93%;
+  margin: 0 auto;
+  padding: 50px 0px 80px 0px;
+}
+
+#headline {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.buttons {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 800px;
+}
+
+button {
+  height: 45px;
+  font-size: 14px;
+  margin-right: 10px;
+  margin-left: 0px;
+  border: 1px #252525 solid;
+  border-radius: 2px;
+  padding: 1px 8px 0px 12px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline:0;
+}
+
+.point {
+  display: inline-block;
+  background-color: transparent;
+  font-size: 25px;
+  margin-left: 6px;
+  margin-top: -2;
+  transform: rotate(0.25turn);
+  vertical-align: middle;
+}
+
+#graphic-presidents {
+  width: 100%;
+  margin: 50px auto;
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+
+#bar-presidents {
+  margin: 70px auto;
+}
+
+#graph-3 {
+  width: 100%;
+  max-width: 800px;
+  margin: 30px auto;
+  margin-top: 60px;
+}
+
+.container-president {
+  display: inline-block;
+  max-width: 185px;
+  margin: 0px 20px 50px 0px;
+}
+
+.container-president:nth-child(4n+0) {
+  margin-right: 0px;
+}
+
+.blocks {
+  width: 46px;
+  height: 20px;
+  display: inline-block;
+  margin: -5px -5px 0px 0px;
+  border: 1px #f3f3f3 solid;
+}
+
+.bar-color {
+  width: 0.145348837209302%;
+  height: 300px;
+  display: inline-block;
+  margin: 0px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 30px 0px 15px 0px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #252525;
+}
+
+h4 {
+  color: #3c3c3c;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+h5 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+a, a:active, a:visited {
+  text-underline-position: under;
+}
+
+a:hover {
+  background-color: #3c3c3c;
+  color: #f3f3f3;
+}
+
+.graph-intro {
+  line-height: 1.9;
+  max-width: 90%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.paragraphs {
+  width: 100%;
+  max-width: 600px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  line-height: 2;
+  font-size: 17px;
+  color: #3c3c3c;
+}
+
+.name {
+  margin: 0px 0px 5px 0px;
+  font-weight: 600;
+}
+
+.strong-name {
+  font-weight: 300;
+}
+
+.presidency {
+    margin-top: 3px;
+    font-size: 13px;
+    color: #545454;
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 890px) {
+
+  #headline {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .buttons {
+    max-width: 600px;
+  }
+
+  #graphic-presidents, #graph-3 {
+    max-width: 600px;
+  }
+
+  .container-president {
+    margin: 0px 15px 30px 0px;
+  }
+
+  .container-president:nth-child(3n+0) {
+    margin-right: 0px;
+  }
+
+  .container-president:nth-child(4n+0) {
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  #container {
+    padding: 20px 0px;
+  }
+
+  #headline {
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 19px;
+    margin: 0;
+  }
+
+  #bar-presidents {
+    margin: 40px auto;
+    margin-bottom: 50px;
+  }
+
+  .bar-color {
+    width: 100%;
+    height: 1px;
+    display: block;
+  }
+
+  .presidency {
+      font-size: 14px;
+  }
+
+  #graph-3 {
+    margin: 50px auto;
+  }
+
+  .container-president {
+    max-width: 100%;
+    display: block;
+    margin: 0px 0px 30px 0px;
+  }
+
+  .container-president:nth-child(2n+0) {
+    margin-right: 0px;
+  }
+
+  .blocks {
+    width: 6.55%;
+    height: 25px;
+  }
+
+  .graph-intro {
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+
+button {
+  margin-right: 3px;
+}
+}
+
+@media only screen and (max-width: 360px) {
+  button {
+    font-size: 13px;
+    margin-right: 0px;
+    padding: 1px 4px 0px 4px;
+  }
+
+}
