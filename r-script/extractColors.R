@@ -29,7 +29,9 @@ drawing.presidents <- function() {
     
     temp <- create_palette(image_path = paste(path, i, sep = ""),
                            number_of_color = 16,
-                           type_of_variable = "categorical")
+                           type_of_variable = "categorical",
+                           filter_on_low_brightness= FALSE,
+                           filter_on_high_brightness= FALSE)
     
     vector <- c(temp)
     
