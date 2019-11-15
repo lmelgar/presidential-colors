@@ -126,11 +126,13 @@ h5 {
 
 a, a:active, a:visited {
   text-underline-position: under;
+  font-size: 17px;
 }
 
 a:hover {
   background-color: #3c3c3c;
   color: #f3f3f3;
+  font-size: 17px;
 }
 
 strong {
