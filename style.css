@@ -133,6 +133,10 @@ a:hover {
   color: #f3f3f3;
 }
 
+strong {
+  letter-spacing: 1px;
+}
+
 .graph-intro {
   line-height: 1.9;
   max-width: 90%;
@@ -197,7 +201,7 @@ a:hover {
 @media only screen and (max-width: 600px) {
 
   #container {
-    padding: 15px 0px;
+    padding: 20px 0px;
   }
 
   #headline {
